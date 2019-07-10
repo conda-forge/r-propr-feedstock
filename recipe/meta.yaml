@@ -1,4 +1,4 @@
-{% set version = '4.1.1' %}
+{% set version = "4.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/propr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/propr/propr_{{ version }}.tar.gz
-  sha256: b7f161d0db498aba52f3c9c6ed17aeda4609a3a472d8ad69112a53a3486bfe19
+  sha256: 21d6c23c06543197701520f5b080b6cae9c8258be821d2d11db101c73ae8f8fe
 
 build:
   merge_build_host: True  # [win]
@@ -23,7 +23,8 @@ requirements:
   build:
     - {{ compiler('c') }}        # [not win]
     - {{ compiler('cxx') }}      # [not win]
-    - {{native}}toolchain        # [win]
+    - {{ compiler('m2w64_c') }}        # [win]
+    - {{ compiler('m2w64_cxx') }}      # [win]
     - {{posix}}filesystem        # [win]
     - {{posix}}make
     - {{posix}}sed               # [win]
