@@ -3,7 +3,7 @@ About r-propr
 
 Home: http://github.com/tpq/propr
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-propr-feedstock/blob/master/LICENSE.txt)
 
