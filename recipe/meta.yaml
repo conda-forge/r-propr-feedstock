@@ -8,7 +8,7 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: "{{ github }}/archive/refs/tags/v{{ version }}.tar.gz"
+  url: "{{ github }}/archive/refs/tags/{{ version }}.tar.gz"
   sha256: c0a0cf8b007501919bbe0585e412a62902f61c70cc3dfa2b56546428b16db887
 
 build:
