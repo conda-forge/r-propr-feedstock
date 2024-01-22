@@ -32,11 +32,11 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - bioconductor-aldex2
+    # - bioconductor-aldex2
     - r-corpcor
     - r-fastcluster
     - r-knitr
-    - bioconductor-limma
+    # - bioconductor-limma
     - r-ppcor
     - r-rmarkdown
     - r-testthat
@@ -45,11 +45,11 @@ requirements:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-rcpp
-    - bioconductor-aldex2
+    # - bioconductor-aldex2
     - r-corpcor
     - r-fastcluster
     - r-knitr
-    - bioconductor-limma
+    # - bioconductor-limma
     - r-ppcor
     - r-rmarkdown
     - r-testthat
