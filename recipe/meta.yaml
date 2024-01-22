@@ -58,6 +58,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - suzannejin
     - conda-forge/r
     - jacodela
 
