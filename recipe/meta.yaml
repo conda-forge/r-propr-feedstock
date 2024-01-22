@@ -35,11 +35,8 @@ requirements:
     # - bioconductor-aldex2
     - r-corpcor
     - r-fastcluster
-    - r-knitr
     # - bioconductor-limma
     - r-ppcor
-    - r-rmarkdown
-    - r-testthat
     - r-vegan
   run:
     - r-base
@@ -48,11 +45,8 @@ requirements:
     # - bioconductor-aldex2
     - r-corpcor
     - r-fastcluster
-    - r-knitr
     # - bioconductor-limma
     - r-ppcor
-    - r-rmarkdown
-    - r-testthat
     - r-vegan
 
 test:
