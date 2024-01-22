@@ -39,7 +39,7 @@ requirements:
     - bioconductor-limma
     - r-ppcor
     - r-rmarkdown
-    - r-testthat >=3.0.0
+    - r-testthat
     - r-vegan
   run:
     - r-base
@@ -52,7 +52,7 @@ requirements:
     - bioconductor-limma
     - r-ppcor
     - r-rmarkdown
-    - r-testthat >=3.0.0
+    - r-testthat
     - r-vegan
 
 test:
