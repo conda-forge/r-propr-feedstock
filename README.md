@@ -3,6 +3,7 @@ About r-propr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-propr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-propr
 -------------
 
@@ -11,6 +12,7 @@ Home: http://github.com/tpq/propr
 Package license: GPL-2.0-only
 
 Summary: An R package to calculate proportionality between vectors of compositional data
+
 About r-propr
 -------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -203,4 +205,5 @@ Feedstock Maintainers
 
 * [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@jacodela](https://github.com/jacodela/)
+* [@suzannejin](https://github.com/suzannejin/)
 
