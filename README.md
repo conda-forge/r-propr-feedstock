@@ -11,7 +11,7 @@ Home: http://github.com/tpq/propr
 
 Package license: GPL-2.0-only
 
-Summary: An R package to calculate proportionality between vectors of compositional data
+Summary: An R package to calculate proportionality and other measures for compositional data
 
 About r-propr
 -------------
@@ -20,7 +20,7 @@ Home: http://github.com/tpq/propr
 
 Package license: GPL-2.0-only
 
-Summary: An R package to calculate proportionality between vectors of compositional data
+Summary: An R package to calculate proportionality and other measures for compositional data
 
 Current build status
 ====================
