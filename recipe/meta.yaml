@@ -1,4 +1,4 @@
-{% set version = "5.0.1" %}
+{% set version = "5.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 {% set github = "https://github.com/tpq/propr" %}
@@ -9,10 +9,10 @@ package:
 
 source:
   url: "{{ github }}/archive/refs/tags/{{ version }}.tar.gz"
-  sha256: c0a0cf8b007501919bbe0585e412a62902f61c70cc3dfa2b56546428b16db887
+  sha256: 94fa58fd902c80399842909068c96bfb4daaa09e0dd65ade4428024d90d17d18
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
