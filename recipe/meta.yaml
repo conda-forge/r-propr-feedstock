@@ -8,10 +8,10 @@ package:
 
 source:
   url: "{{ github }}/archive/refs/tags/{{ version }}.tar.gz"
-  sha256: 4d00551e068175cb834c4abe2880db8166be3fe2cd0cea875c34208b7c1d7f0d
+  sha256: db9a0dc4a93c00583695e2df990d2760836f03a84068d9f436e9f784a8443c0d
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
