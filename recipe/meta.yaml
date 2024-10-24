@@ -1,4 +1,4 @@
-{% set version = "5.1.4" %}
+{% set version = "5.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set github = "https://github.com/tpq/propr" %}
 
@@ -8,10 +8,10 @@ package:
 
 source:
   url: "{{ github }}/archive/refs/tags/{{ version }}.tar.gz"
-  sha256: 7198468e5ca1d9c8e4e6a2565b8d07a66da2c525d87b7f0421e8fcbc5a55c51d
+  sha256: 5ef3dd62225a7d2243e828732bbc2c58f28f3d52169be552249121526e6a0008
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -62,7 +62,7 @@ extra:
 
 # Package: propr
 # Title: An R package to calculate proportionality and other measures for compositional data
-# Version: 5.1.4
+# Version: 5.1.5
 # URL: http://github.com/tpq/propr
 # BugReports: http://github.com/tpq/propr/issues
 # Authors@R: c(person("Thomas", "Quinn", email = "contacttomquinn@gmail.com", role = c("aut", "cre")), person("Suzanne", "Jin", email = "suzanne.jin.yao@gmail.com", role = "aut"), person("Ionas", "Erb", email = "ionas.erb@crg.eu", role = "aut"), person("David", "Lovell", email = "david.lovell@qut.edu.au", role = "aut"), person("Anders", "Bilgrau", email = "anders.ellern.bilgrau@gmail.com", role = "ctb"), person("Greg", "Gloor", email = "ggloor@uwo.ca", role = "ctb"), person("Ryan", "Moore", email = "rmm1047@gmail.com", role = "ctb"))
