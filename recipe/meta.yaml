@@ -1,4 +1,4 @@
-{% set version = "5.1.5" %}
+{% set version = "5.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set github = "https://github.com/tpq/propr" %}
 
@@ -8,10 +8,10 @@ package:
 
 source:
   url: "{{ github }}/archive/refs/tags/{{ version }}.tar.gz"
-  sha256: 4803183806afb2e81019a3efa6712400796b7b25871c8076f0b3ffc8af18ab55
+  sha256: 50ed225c43c45823b16fc92776c9ba960d26bbb94e842a6fba145e363a0ab775
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
